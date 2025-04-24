@@ -1,18 +1,63 @@
-# Programmieruebungen_2
-## Contributors:  Simon Krainer and Lukas Köhler
+# 📊 Programmierübungen 2 – Power Curve Projekt
 
-## Roadmap 
-![IMG_20250424_164154507](https://github.com/user-attachments/assets/e6001b8a-6cb6-4158-a179-c7479af67408)
+Ein kleines Python-Projekt zur Analyse und Visualisierung von Leistungsdaten. Ziel ist es, aus Rohdaten (`activity.csv`) eine Leistungskurve zu berechnen und als Bild zu speichern.
 
-## Instructions
-### pdm
-(Sie beschreiben, wie man das Projekt mit pdm installiert und der Code genutzt wird)
-Gehe in die Powershell, gib $cd dein-projektordner$ ein, danach $pdm init$ und dann noch $pdm add matplotlib numpy pandas$. 
+---
 
+## 👥 Contributors
+- Simon Krainer  
+- Lukas Köhler
 
-## Plot figure
-![Figure_1](https://github.com/user-attachments/assets/f8ecf0e6-cba4-4efb-8833-a35bc7c782ed)
+---
 
+## ⚙️ Installation mit [PDM](https://pdm.fming.dev/)
 
-Aufgaben:
-- pdm instructions read me
+> PDM ist ein moderner Python-Paketmanager, der `pyproject.toml` verwendet.
+
+### Schritte:
+1. Öffne PowerShell oder Terminal
+2. Wechsle in deinen Projektordner:
+   ```bash
+   cd dein-projektordner
+   ```
+3. Initialisiere das Projekt mit PDM:
+   ```bash
+   pdm init
+   ```
+4. Installiere die benötigten Pakete:
+   ```bash
+   pdm add matplotlib numpy pandas
+   ```
+
+---
+
+## 🧠 Projektübersicht
+
+| Datei                    | Beschreibung                                          |
+|-------------------------|-------------------------------------------------------|
+| `activity.csv`          | Rohdaten für die Analyse                              |
+| `load_data.py`          | Liest die CSV-Datei ein                               |
+| `sort.py`               | Sortiert die Daten mittels Bubble Sort                |
+| `power_curve.py`        | Berechnet die Leistungskurve                          |
+| `plot_power.py`         | Visualisiert die Leistung und speichert sie als PNG   |
+| `figures/power_curve.png` | Ergebnisgrafik der Leistungskurve                    |
+| `main.py`               | Steuert den gesamten Ablauf                           |
+
+---
+
+## 🔁 Datenfluss
+
+```mermaid
+flowchart LR
+    CSV["CSV-Datei"] -->|load_data| PowerOriginal
+    PowerOriginal -->|sort / bubble_sort| SortedPower
+    SortedPower -->|plot_power| Plot
+    Plot -->|save_plot| Save
+    Save --> PNG["figures/powercurve.png"]
+```
+
+---
+
+## 📈 Beispielausgabe
+
+![Power Curve](https://github.com/user-attachments/assets/39afd52c-6804-45fe-ab8b-73e5eefe4060)
