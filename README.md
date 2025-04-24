@@ -12,6 +12,4 @@
 
 
 Aufgaben:
-- x axe HH:MM
-- save plot in /files
 - pdm instructions read me
