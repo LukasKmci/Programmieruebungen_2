@@ -1,4 +1,4 @@
-# Programmieruebungen2
+# Programmieruebungen_2
 ## Contributors:  Simon Krainer and Lukas Köhler
 
 ## Roadmap 
