@@ -2,7 +2,7 @@ from load_data import load_data
 from plot_power import plot_power_curve
 from sort import bubble_sort
 import numpy as np
-from time_conversion import minutes_to_hhmm
+from datetime import timedelta
 
 # Hier soll die Powerkurve gespeichert werden
 
@@ -12,10 +12,8 @@ power_W = data['PowerOriginal']
 sorted_power_W = bubble_sort(power_W)
 
 # Convert time to hh:mm format
-time = np.array(range(len(sorted_power_W)))
-#time = minutes_to_hhmm(time)
+time = np.arange(len(sorted_power_W))
+time = [str(timedelta(seconds=int(s)))[2:7] for s in time] # Achtung! Funktioniert nur bis 1h
 
 # plot
 plot_power_curve(sorted_power_W, time)
-
-# Save the plot as a PNG file
