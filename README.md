@@ -1,4 +1,4 @@
-## Contributors:  Simon Krainer   Lukas Köhler
+## Contributors:  Simon Krainer und   Lukas Köhler
 
 # Programmieruebungen2
 
