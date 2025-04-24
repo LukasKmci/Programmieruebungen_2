@@ -1,0 +1,15 @@
+[project]
+name = "Programmieruebungen2"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Simon Krainer", email = "ks0376@mci4me.at"},
+]
+dependencies = ["numpy>=2.2.5", "pandas>=2.2.3", "matplotlib>=3.10.1"]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false

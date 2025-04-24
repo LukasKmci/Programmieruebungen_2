@@ -1,0 +1,1 @@
+# Hier soll die Powerkurve erstellt werden
