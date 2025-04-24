@@ -9,3 +9,9 @@
 
 ## Plot figure
 ![Figure_1](https://github.com/user-attachments/assets/f8ecf0e6-cba4-4efb-8833-a35bc7c782ed)
+
+
+Aufgaben:
+- x axe HH:MM
+- save plot in /files
+- pdm instructions read me
