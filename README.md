@@ -12,9 +12,6 @@ Ein kleines Python-Projekt zur Analyse und Visualisierung von Leistungsdaten. Zi
 
 ## ⚙️ Installation mit [PDM](https://pdm.fming.dev/)
 
-> PDM ist ein moderner Python-Paketmanager, der `pyproject.toml` verwendet.
-
-### Schritte:
 1. Öffne PowerShell oder Terminal
 2. Wechsle in deinen Projektordner:
    ```bash
