@@ -38,7 +38,7 @@ Ein kleines Python-Projekt zur Analyse und Visualisierung von Leistungsdaten. Zi
 | `power_curve.py`        | Berechnet die Leistungskurve                          |
 | `plot_power.py`         | Visualisiert die Leistung und speichert sie als PNG   |
 | `figures/power_curve.png` | Ergebnisgrafik der Leistungskurve                    |
-| `main.py`               | Steuert den gesamten Ablauf                           |
+| `power_curve.py`               | Steuert den gesamten Ablauf                           |
 
 ---
 
