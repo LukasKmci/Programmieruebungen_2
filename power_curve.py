@@ -11,9 +11,9 @@ data = load_data('activity.csv')
 power_W = data['PowerOriginal']
 sorted_power_W = bubble_sort(power_W)
 
-# Convert time to hh:mm format
+# Convert time to mm:ss format
 time = np.arange(len(sorted_power_W))
-time = [str(timedelta(seconds=int(s)))[2:7] for s in time] # Achtung! Funktioniert nur bis 1h
+time = [str(timedelta(seconds=int(s))).zfill(8)[-5:] for s in time]
 
 # plot
 plot_power_curve(sorted_power_W, time)
