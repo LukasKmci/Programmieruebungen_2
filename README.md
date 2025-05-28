@@ -57,3 +57,7 @@ flowchart LR
 
 ## 📈 Ausgabe
 ![newplot](https://github.com/user-attachments/assets/10bce6e9-7627-42bb-9d59-8f239b1b9745)
+
+## Screenshot der App
+![image](https://github.com/user-attachments/assets/32d85237-31cf-41bd-a998-58897bec1b5d)
+
