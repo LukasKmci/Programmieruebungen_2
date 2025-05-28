@@ -55,6 +55,5 @@ flowchart LR
 
 ---
 
-## 📈 Beispielausgabe
-
-![Power Curve](https://github.com/user-attachments/assets/39afd52c-6804-45fe-ab8b-73e5eefe4060)
+## 📈 Ausgabe
+![newplot](https://github.com/user-attachments/assets/10bce6e9-7627-42bb-9d59-8f239b1b9745)
